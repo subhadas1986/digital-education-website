@@ -8,3 +8,17 @@ body{
 .icon a i{
     color: #f39c12;
 }
+.my-icon i{
+    margin: 10px;
+    font-size: 20px;
+}
+@media only screen and (max-width: 576px) {
+    .image-all{
+        display: none;
+    }
+}
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    .image-all{
+        display: none;
+    }
+}
