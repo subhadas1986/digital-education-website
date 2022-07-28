@@ -5,3 +5,6 @@ body{
 .background-color{
     background-color: #F4FAFD;
 }
+.icon a i{
+    color: #f39c12;
+}
