@@ -12,12 +12,17 @@ body{
     margin: 10px;
     font-size: 20px;
 }
-@media only screen and (max-width: 576px) {
+@media only screen and (min-width: 0px) and (max-width: 575px) {
     .image-all{
         display: none;
     }
 }
-@media only screen and (min-width: 577px) and (max-width: 768px) {
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    .image-all{
+        display: none;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
     .image-all{
         display: none;
     }
